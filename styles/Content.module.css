@@ -1,0 +1,79 @@
+.mainContentSection {
+    padding: 5rem 0.75rem 8rem 0.75rem;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(247,250,252, 1) */
+}
+.entryContentContainer {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.entryContentContainer h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 16px;
+
+}
+.entryContentContainer span.textGradient {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0 0 16px;
+    letter-spacing: -.06em;
+    color: #fff;
+    display: block;
+    font-size: 100px;
+    line-height: 1.1;
+    position: relative;
+}
+.entryContentContainer span.textGradient::before {
+    background: linear-gradient(90deg, #007CF0, #00DFD8 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: "Johans Neira";
+    position: absolute;
+    inset: 0;
+}
+
+.contactBtn {
+    display: inline-block;
+    background-color: transparent;
+    font-weight: 800;
+    line-height: 1.5;
+    border: 3px solid #007CF0;
+    color: #007CF0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contactBtn a{
+    color: #007CF0;
+}
+
+.contactBtn a:hover{
+    color: #fff;
+}
+
+.contactBtn:hover {
+    color: #fff;
+    background-color: #007CF0;
+}
+
+.typewriter div span{
+    text-align: left;
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: -.02em;
+}

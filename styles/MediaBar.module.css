@@ -1,0 +1,55 @@
+.barContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0rem 0.75rem 0rem 0.75rem;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.barContainer .iconContainer {
+    border-radius: 50%;
+    border: 2px solid #171C28;
+    height: 6rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.iconContainer:hover {
+    cursor: pointer;
+    transform: scale(1.2);   
+}
+
+.github {
+    background-color: #333;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}
+
+.instagram {
+    background-color: #c13584;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.discord {
+    background-color: #3b5999;
+}
+
+.mail {
+    background-color: #ea4335;
+}
+
